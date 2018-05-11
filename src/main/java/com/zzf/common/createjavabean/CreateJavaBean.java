@@ -15,19 +15,19 @@ import com.zzf.common.jdbc.JDBCDemo;
 public class CreateJavaBean {
     public static final String DRIVER_CLASS = "org.mariadb.jdbc.Driver";
 
-    public static final String DRIVER_URL = "jdbc:mysql://132.97.184.60:3306/yuwei_h5?characterEncoding=utf-8";
+    public static final String DRIVER_URL = "jdbc:mysql://192.168.230.130:3306/test?characterEncoding=utf-8";
 
-    public static final String USERNAME = "yuwei_h5";//dnxuser
+    public static final String USERNAME = "root";
 
-    public static final String PASSWORD = "yuwei_h5";//domain
+    public static final String PASSWORD = "123456";
 
-    public static final String DATABASE = "yuwei_h5";
+    public static final String DATABASE = "test";
 
-    public static final String TABLENAME = "template_music";
+    public static final String TABLENAME = "user";
 
     public static final String FILEPATH = "E://";
 
-    public static final String PACKAGE = "com.yuwei.base.vo";
+    public static final String PACKAGE = "com.zzf.vo";
 
     public static boolean isAnnotation = true;
 
