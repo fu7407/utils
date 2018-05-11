@@ -23,9 +23,7 @@ public class ArrayCutting {
             sum += array[i];  
         }  
         avg = Math.round(sum / 2);  
-          
         k = new int[avg+1][array.length+1];  
-          
         for (int w=1; w<=avg; w++) {  
             for(int j=1; j<=array.length; j++) {  
                 if (j==1){  
