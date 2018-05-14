@@ -176,7 +176,7 @@ public class Test {
 		//System.out.println(ss>kk);
 		//System.out.println( test.getSum(new int[]{1,3,44,2,4,5,54,222,368},8));
 		//System.out.println("j="+test.getSum("13abf"));
-		//test.get();
+		//test.get();//ceshi
 		String tt="10.000";
 		int index = tt.indexOf(".");
 		System.out.println(tt.substring(index+1,tt.length() ));
