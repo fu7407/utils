@@ -9,7 +9,7 @@ import java.net.Socket;
 public class EchoThread implements Runnable {
 
 	private Socket client = null;
-	
+
 	public EchoThread(Socket client) {
 		super();
 		this.client = client;
@@ -22,15 +22,15 @@ public class EchoThread implements Runnable {
 			buf = new BufferedReader(new InputStreamReader(client.getInputStream()));
 			out = new PrintStream(client.getOutputStream());
 			boolean flag = true;
-			while(flag){
-				String str = buf.readLine();//���Ͻ��տͻ��˷�������Ϣ
-				if(str==null||"".equals(str)){
+			while (flag) {
+				String str = buf.readLine();// 不断接收客户端发来的信息
+				if (str == null || "".equals(str)) {
 					flag = false;
-				}else{
-					if("bye".equals(str)){
+				} else {
+					if ("bye".equals(str)) {
 						flag = false;
-					}else{
-						out.println("ECHO:"+str);//��ͻ��˻���ʾ��Ϣ
+					} else {
+						out.println("ECHO:" + str);// 向客户端回显示信息
 					}
 				}
 			}
