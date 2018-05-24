@@ -9,6 +9,11 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * 
+ * @author zhangzengfu
+ *
+ */
 public class MyServer {
 	private static ExecutorService executorService = Executors.newCachedThreadPool();// 创建一个线程池
 
