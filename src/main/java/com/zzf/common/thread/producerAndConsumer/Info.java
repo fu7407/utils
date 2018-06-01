@@ -1,4 +1,4 @@
-package com.zzf.common.thread;
+package com.zzf.common.thread.producerAndConsumer;
 
 public class Info {
 	private String name = "张三";

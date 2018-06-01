@@ -1,4 +1,4 @@
-package com.zzf.common.thread;
+package com.zzf.common.thread.producerAndConsumer;
 
 public class ThreadTest {
 

@@ -1,4 +1,4 @@
-package com.zzf.common.thread;
+package com.zzf.common.thread.pipe;
 
 import java.io.IOException;
 
