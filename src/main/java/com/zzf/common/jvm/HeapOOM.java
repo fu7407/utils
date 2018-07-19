@@ -19,6 +19,9 @@ public class HeapOOM {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Xmx=" + Runtime.getRuntime().maxMemory() / 1024 / 1024 + "M");
+		System.out.println("free mem=" + Runtime.getRuntime().freeMemory() / 1024 / 1024 + "M");
+		System.out.println("total mem=" + Runtime.getRuntime().totalMemory() / 1024 / 1024 + "M");
 		List<OOMObject> list = new ArrayList<OOMObject>();
 		while (true) {
 			list.add(new OOMObject());
